@@ -35,7 +35,6 @@ import { NavLink } from 'react-router-dom';
 const navLink = [
 
   { name: "Snippets", herf: "/pages" },
-  { name: "TypeScript", herf: "" },
   { name: "About-Us", herf: "/aboutus" },
 ]
 
@@ -56,7 +55,7 @@ const MyTypography = styled(Typography)({
 })
 
 
-const navLinkStyles = ({ isActive }) => {
+const navLinkStyles = () => {
   return {
     fontWeight: 'none',
     textDecoration: 'none',

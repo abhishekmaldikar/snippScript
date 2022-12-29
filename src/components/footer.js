@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Box, Divider, Typography, Link, Grid } from '@mui/material';
+import { Container, Box, Divider, Typography, Link, Grid ,IconButton } from '@mui/material';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
@@ -40,8 +40,8 @@ const Footer = () => {
         align='center'
         my="25px"
         >
-        <InstagramIcon/>
-        <LinkedInIcon/>
+        <IconButton href='https://www.instagram.com/m_maldikar/'> <InstagramIcon fontSize="large" /> </IconButton>
+        <IconButton href='https://www.linkedin.com/in/abhishek-maldikar-201440217/'> <LinkedInIcon fontSize="large"/> </IconButton>
         
         </Box>
       </Box> 

@@ -1,6 +1,6 @@
 import React from 'react';
 import Typography from '@mui/material/Typography';
-import { Grid } from "@mui/material";
+import { Grid, IconButton } from "@mui/material";
 import { useScroll } from "framer-motion"
 import undraw from '../images/undraw.svg'
 import { Container, Box, Divider, Button } from '@mui/material';
@@ -13,20 +13,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 
 const HeroSection = () => {
 
-  // const [text, setText] = useState("")
-  // const [fullText, setFullText] = useState(
-  //   "Javascript made easy... |"
-  // )
-  // const [index, setIndex] = useState(0)
-
-  // useEffect(() => {
-  //   if (index < fullText.length) {
-  //     setTimeout(() => {
-  //       setText(text + fullText[index])
-  //       setIndex(index + 1)
-  //     }, 75)
-  //   }
-  // }, [index])
+ 
 
   return (
     <div>
@@ -131,16 +118,20 @@ const HeroSection = () => {
               </Button>
 
               
-
+              <IconButton href='https://www.instagram.com/m_maldikar/'>
               <InstagramIcon 
               fontSize="large"
               
-              style={{ marginLeft : "15px" }}/>
+              style={{}}/>
+              </IconButton>
+
+              <IconButton href='https://www.linkedin.com/in/abhishek-maldikar-201440217/'>
               <LinkedInIcon 
               fontSize="large"
               sx={{
-                marginLeft : "15px"
+                
               }}/>
+              </IconButton>
 
             </Box>
           </Grid>
