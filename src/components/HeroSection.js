@@ -43,7 +43,7 @@ const HeroSection = () => {
 
               sx={{
                 mt: "100px",
-                color:"#606060",
+                color:"#505050",
                 fontSize: {
 
                   lg: 50,
